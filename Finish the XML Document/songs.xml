@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song>
+    <title>My Way</title>
+    <artist>Frank Sinatra</artist>
+  </song>
+  <song>
+    <title>Goodbye Yellow Brick Road</title>
+    <artist>Elton John</artist>
+  </song>
+  <song>
+    <title>Bohemian Rhapsody</title>
+    <artist>Queen</artist>
+  </song>
+  <song>
+    <title>Rocket Man</title>
+    <artist>Elton John</artist>
+  </song>
+</songs>
