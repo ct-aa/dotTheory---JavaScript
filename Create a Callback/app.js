@@ -1,4 +1,4 @@
-var xhr = new XMLHttpRequest();
+const xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () { };
 
 xhr.open('GET', 'sidebar.html');
