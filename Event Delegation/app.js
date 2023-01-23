@@ -1,7 +1,9 @@
-let section = document.getElementsByTagName('section')[0];
+let inputItems = document.querySelectorAll('input');
 
-section.addEventListener('click', (e) => {
-    if (e.target.tagName === 'INPUT') {
-        e.target.style.backgroundColor = 'rgb(255, 255, 0)';
-    }
-});
+for (let i = 0; i < inputItems.length; i++) {
+	inputItems[i].addEventListener('click', (e) => {
+		if (e.target.tagName === 'INPUT') {
+			e.target.style.backgroundColor = 'rgb(255, 255, 0)';
+		}
+	});
+}
