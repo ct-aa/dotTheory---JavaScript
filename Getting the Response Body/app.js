@@ -1,6 +1,6 @@
 const https = require("https");
 const request = https.get("https://teamtreehouse.com/chalkers.json", response => {
-	let responseBody = "";
+	const responseBody = "";
 
 	response.on("data", dataChunk => {
 		responseBody += dataChunk;
